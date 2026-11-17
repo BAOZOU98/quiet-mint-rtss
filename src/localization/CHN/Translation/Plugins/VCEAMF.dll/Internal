@@ -1,0 +1,6 @@
+#src Target bitrate : %d Mbps
+#dst 目标码率：%d Mbps
+#end
+#src AMD VCE H.264 hardware accelerated via AMD AMF with %s memory interface
+#dst AMD VCE H.264，通过 AMD AMF 硬件加速，使用%s内存接口
+#end

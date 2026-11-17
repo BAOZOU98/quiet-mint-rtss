@@ -1,0 +1,12 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.png binary
+*.ttf binary
+# RTSS localization databases and skin headers are legacy GBK/CRLF, not UTF-8.
+src/localization/** -text -whitespace
+src/skin/header -text -whitespace
+*.ovl text eol=crlf
+assets/fonts/OFL.txt -text -whitespace

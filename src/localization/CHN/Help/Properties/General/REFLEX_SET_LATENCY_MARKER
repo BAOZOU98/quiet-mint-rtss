@@ -1,0 +1,9 @@
+注入 NVIDIA Reflex 延迟标记
+默认情况下，%PRODUCTNAME% 会向所有原生不支持 NVIDIA Reflex 技术的 Direct3D11 和 Direct3D12 应用程序注入 NVIDIA Reflex 延迟标记。
+集成延迟标记后，可以监控渲染管线各阶段的详细耗时和延迟。
+不过，某些应用程序（例如 Workers And Resources: Soviet Republic 或 Overwatch 2）可能与延迟标记注入不兼容，因此可以使用此选项排查问题，全局禁用或仅对特定应用程序禁用注入。
+
+提示：
+- 此设置仅作用于当前选中的应用程序配置文件。
+- 可在 OverlayEditor 插件中加载 Reflex.ovl 叠加层布局，分析 NVIDIA Reflex 在渲染管线各阶段的延迟。
+- 可在高级设置的“用户界面”选项卡中禁用界面工具提示。

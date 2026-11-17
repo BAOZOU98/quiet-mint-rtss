@@ -1,0 +1,23 @@
+/build/
+/dist/
+/.venv/
+__pycache__/
+*.pyc
+*.log
+*.obj
+*.lib
+*.exp
+*.pdb
+*.exe
+*.dll
+*.usf
+*.zip
+*.mp4
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
+
+# RTSS names translation folders after the binaries they translate (RTSS.exe/, OverlayEditor.dll/ ...).
+!/src/localization/**
